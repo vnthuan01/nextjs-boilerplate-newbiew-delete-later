@@ -1,18 +1,17 @@
-enum UserRoutes {
-  Profile = "/user/profile",
-  ChangePassword = "/user/change-password",
+// export enum UserRoutes {
+//   HOME = "/",
+//   PRODUCTS = "/products",
+//   PRODUCT_DETAIL = "/products/[productId]",
+// }
+
+export enum AdminRoutes {
+  DASHBOARD = "/admin/dashboard",
+  PRODUCTS = "/admin/products",
+  USERS = "/admin/users",
 }
 
-enum AdminRoutes {
-  Profile = "/admin/profile",
-  ChangePassword = "/admin/change-password",
-  Dashboard = "/admin/dashboard",
-}
-
-enum SuperAdminRoutes {
-  Profile = AdminRoutes.Profile,
-  ChangePassword = AdminRoutes.ChangePassword,
-  Dashboard = AdminRoutes.Dashboard,
-  AdminList = "/dashboard/super-admin/admins",
-  AddAdmin = "/dashboard/super-admin/add-admin",
-}
+// export enum SuperAdminRoutes {
+//   DASHBOARD = "/super-admin/dashboard",
+//   PRODUCTS = "/super-admin/products",
+//   USERS = "/super-admin/users",
+// }
